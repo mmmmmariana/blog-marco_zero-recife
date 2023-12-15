@@ -32,3 +32,19 @@ img {
     font-family: 'Segoe UI', Verdana, sans-serif;
     margin: 8px;
 }
+
+/* flex box */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li, .rede-social {
+    margin-left: 48px;
+}
